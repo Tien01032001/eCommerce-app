@@ -1,16 +1,6 @@
 ﻿using eCommerce.Data.Static;
-using eCommerce.Data;
 using eCommerce.Models;
-using eCommerce.Data.Static;
-using eCommerce.Models;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using static System.Net.WebRequestMethods;
 
 namespace eCommerce.Data
 {
@@ -110,32 +100,32 @@ namespace eCommerce.Data
                         {
                             FullName = "Producer 1",
                             Bio = "This is the Bio of the first actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-1.jpeg"
+                            ProfilePictureURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg"
 
                         },
                         new Producer()
                         {
                             FullName = "Producer 2",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-2.jpeg"
+                            ProfilePictureURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 3",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-3.jpeg"
+                            ProfilePictureURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 4",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-4.jpeg"
+                            ProfilePictureURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg"
                         },
                         new Producer()
                         {
                             FullName = "Producer 5",
                             Bio = "This is the Bio of the second actor",
-                            ProfilePictureURL = "http://dotnethow.net/images/producers/producer-5.jpeg"
+                            ProfilePictureURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg"
                         }
                     });
                     context.SaveChanges();
@@ -198,7 +188,7 @@ namespace eCommerce.Data
                             Name = "Scoob",
                             Description = "This is the Scoob movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-7.jpeg",
+                            ImageURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-2),
                             CinemaId = 1,
@@ -210,7 +200,7 @@ namespace eCommerce.Data
                             Name = "Cold Soles",
                             Description = "This is the Cold Soles movie description",
                             Price = 39.50,
-                            ImageURL = "http://dotnethow.net/images/movies/movie-8.jpeg",
+                            ImageURL = "https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.rhorizontal.w700.jpg",
                             StartDate = DateTime.Now.AddDays(3),
                             EndDate = DateTime.Now.AddDays(20),
                             CinemaId = 1,
